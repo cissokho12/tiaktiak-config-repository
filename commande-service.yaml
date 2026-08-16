@@ -2,3 +2,15 @@ tiaktiak:
   commande:
     devise: XOF
     montant-minimum: 1000
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tiaktiak_commande
+    username: root
+    password:mary2003
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
